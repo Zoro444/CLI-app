@@ -1,7 +1,7 @@
 import { EventEmitter } from "events";
 
 process.stdin.setEncoding('utf-8');
-process.stdout.write(`Welcome Username ${process.env.USERNAME}! \n`);
+process.stdout.write(`Welcome ${process.env.USERNAME}! \n`);
 
 const cliEmitter = new EventEmitter();
 
