@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev:start": "nodemon app.js"
+    "start": "node app-os.js",
+    "dev:start": "nodemon app-os.js"
   },
   "repository": {
     "type": "git",
