@@ -5,7 +5,7 @@ Provides commands to display CPU info, home directory, username, architecture, h
 
 ## Installation
 
-git clone https://github.com/Zoro444/CLI-app.git && npm install
+git clone https://github.com/Zoro444/CLI-app.git && npm install && npm run start
 
 ## Usage
 
