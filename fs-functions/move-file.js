@@ -11,7 +11,12 @@ export default function(oldPath, newPath) {
         fs.access(`${newPath}/${fileName[fileName.length - 1]}`, fs.constants.F_OK, (err) => {
           if (err) {
             fs.rename(oldPath, `${newPath}/${fileName[fileName.length - 1]}`, (err) => {
-              console.log(err);
+              if (err) {
+                console.log(err);
+              }
+              else {
+                console.log(`The file moved successfully!`);
+              }
             })
           }
           else {
